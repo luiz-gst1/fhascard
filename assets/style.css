@@ -1,16 +1,16 @@
 :root {
-    --text-color: #1371e4;
-    --card-front-color: #10f0e5;
-    --card-back-color: #6f00ff;
+    --text-color: #f17339;
+    --card-front-color: #000000;
+    --card-back-color: #e47272;
 }
 
 body {
-    background: url('img/bg-desktop.webp');
+    background: url('img/fut.jpeg');
     font-family: Bai Jamjuree;
 }
 
 #container {
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 4rem;
@@ -97,10 +97,10 @@ footer p {
 }
 
 @media (max-width: 560px) {
-    
+   
     body {
-        background: url('img/bg-mobile.webp'), no-repeat cover;
-    }
+        background: url('img/biblio.jpeg'), no-repeat cover;
+    }bp
 
     .cartao {
         flex: 1 0 calc(100% - 1rem)
